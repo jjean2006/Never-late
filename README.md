@@ -28,4 +28,4 @@ Run `python3 Auto-Join-Class/setup.py` in the terminal to complete the setup.
 *The following is optional, but recommended*    
 *Instructions copy pasted from stack overflow thread: https://stackoverflow.com/questions/62014315/can-i-run-a-python-script-from-a-keyboard-shortcut*  
 you can create a 'quick action' in Automate using an apple script to tell Terminal to do something like 'tell application "Terminal" to do script "python3    /home/username/path/to/script.py"'. Then, you can go into your keyboard shortcut preferences and add a hotkey to the action.  
-The instructions for creating a keyboard shortcut for the Different linux distros vary. 
+The instructions for creating a keyboard shortcut for the different linux distros vary. 
