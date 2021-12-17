@@ -33,7 +33,7 @@ However I do have some ideas in order to implement this, and will do so after fu
 Run the following commands:
 ```
 git clone https://github.com/Phantasm702/Auto-Join-Class.git
- Auto-Join-Class/setup.pypython3
+python3 Auto-Join-Class/setup.py
 ```
 *The following is optional, but recommended*
 If you are using a Mac:
