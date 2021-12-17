@@ -1,11 +1,11 @@
-## Auto-Class-Join script
+# Auto-Class-Join script
 
 ## Ever been late to class?
 With this script, never worry about that again. 
 
 With a simple keybind, you can retrieve the link to join the respective class, and put it in the browser.
 
-[Github repo](https://github.com/Phantasm702/Auto-Join-Class)
+[Github repository link](https://github.com/Phantasm702/Auto-Join-Class)
 
 
 ### To-Do:
