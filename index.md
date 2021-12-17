@@ -7,7 +7,6 @@ With a simple keybind, you can retrieve the link to join the respective class, a
 
 [Github repo](https://github.com/Phantasm702/Auto-Join-Class)
 
-#
 
 ### To-Do:
 1) Implement 'execute on shortcut' on windows using pynput.
