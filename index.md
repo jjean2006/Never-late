@@ -1,11 +1,11 @@
-# Auto-Class-Join script
+# Never-late script
 
 ## Ever been late to class?
 With this script, never worry about that again. 
 
 With a simple keybind, you can retrieve the link to join the respective class, and put it in the browser.
 
-[Github repository link](https://github.com/Phantasm702/Auto-Join-Class)
+[Github repository link](https://github.com/Phantasm702/Never-late)
 
 ## Install Instructions:
 ### - Dependencies:
@@ -20,25 +20,25 @@ With a simple keybind, you can retrieve the link to join the respective class, a
 ### - Windows:
 Run the following commands:
 ```
-git clone https://github.com/Phantasm702/Auto-Join-Class.git
-python3 Auto-Join-Class\setup.py 
+git clone https://github.com/Phantasm702/Never-late.git
+python3 Never-late\setup.py 
 ```
 Then answer the questions to complete the setup.  
 *The following is optional, but recommended*  
-After this, create a shortcut for the script.py file which is located in the Auto-Join-Class folder.
+After this, create a shortcut for the script.py file which is located in the Never-late folder.
 The feature to join the class on keybind has not yet been implemented on windows, as there is no way to execute the script after pressing the keybind automatically.
 However I do have some ideas in order to implement this, and will do so after furter testing.
 
 ### - Mac/Linux
 Run the following commands:
 ```
-git clone https://github.com/Phantasm702/Auto-Join-Class.git
-python3 Auto-Join-Class/setup.py
+git clone https://github.com/Phantasm702/Never-late.git
+python3 Never-late/setup.py
 ```
 *The following is optional, but recommended*
 If you are using a Mac:
 - Open the shortcuts app
-- Create a new shortcut to "Tell terminal to run Auto-Join-Class/script.py" and set it to run for a keyboard shortcut.
+- Create a new shortcut to "Tell terminal to run Never-late/script.py" and set it to run for a keyboard shortcut.
 
 The instructions for getting the script to execute on a keyboard shortcut very from linux distro to distro.
 
