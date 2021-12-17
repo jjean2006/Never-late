@@ -21,5 +21,5 @@ With a simple keybind, you can retrieve the link to join the respective class, a
 
 ### To-Do:
 - Implement 'execute on shortcut' on windows using pynput.\
-- Send push notifications when joining class, with the class name so that the user can make sure they're joining the right class.\ 
+- Send push notifications when joining class, with the class name so that the user can make sure they're joining the right class.\
 - Implement 'remind when class is starting' feature.\
