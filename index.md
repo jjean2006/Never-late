@@ -1,21 +1,21 @@
 # Never-late
 
-## Ever been late to class?
-With this script, never worry about that again. 
+## Ever been late to class?  
+With this script, never worry about that again.  
 
-With a simple keybind, you can retrieve the link to join the respective class, and put it in the browser.
+With a simple keybind, you can retrieve the link to join the respective class, and put it in the browser.  
 
-[Github repository link](https://github.com/Phantasm702/Never-late)
+[Github repository link](https://github.com/Phantasm702/Never-late)  
 
-## Install Instructions:
-### - Dependencies:
-1. Download git fom here: [https://git-scm.com/downloads](https://git-scm.com/downloads)
+## Install Instructions:  
+### - Dependencies:  
+1. Download git fom here: [https://git-scm.com/downloads](https://git-scm.com/downloads)  
 2. The script is written in Python3. So you will need that installed.  
 
-    - To check if python3 is installed open the command prompt and type python3 and hit enter. If it opens the microsoft store page for python3(windows), or return "Command not found" (Mac/Linux) it is not installed.  
-    - If you are using MacOS Catalina, Python3 is installed by default. If not you can install it here: [https://git-scm.com/downloads](https://www.python.org/downloads/).  
-    - Linux users can install it from [https://git-scm.com/downloads](https://www.python.org/downloads/) as well.  
-    - If you're using windows, click the "Get" button on the microsoft store page.  
+    - To check if python3 is installed open the command prompt and type python3 and hit enter. If it opens the Microsoft store page for Python3 (Windows), or return "Command not found" (Mac/Linux) it is not installed.  
+    - If you are using MacOS Catalina, Python3 is installed by default. If not you can install it here: [https://www.python.org/downloads/](https://www.python.org/downloads/).  
+    - Linux users can install it from [https://www.python.org/downloads/](https://www.python.org/downloads/) as well.  
+    - If you're using windows, click the "Get" button on the [Microsoft store page](https://www.microsoft.com/en-in/p/python-39/9p7qfqmjrfp7?activetab=pivot:overviewtab).  
 
 ### - Windows:
 Run the following commands:
@@ -35,7 +35,7 @@ Run the following commands:
 git clone https://github.com/Phantasm702/Never-late.git
 python3 Never-late/setup.py
 ```
-*The following is optional, but recommended*  
+*The following is optional, but recommended*
 If you are using a Mac:
 - Open the shortcuts app
 - Create a new shortcut to "Tell terminal to run Never-late/script.py" and set it to run for a keyboard shortcut.
