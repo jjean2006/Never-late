@@ -35,7 +35,7 @@ Run the following commands:
 git clone https://github.com/Phantasm702/Never-late.git
 python3 Never-late/setup.py
 ```
-*The following is optional, but recommended*
+*The following is optional, but recommended*  
 If you are using a Mac:
 - Open the shortcuts app
 - Create a new shortcut to "Tell terminal to run Never-late/script.py" and set it to run for a keyboard shortcut.
