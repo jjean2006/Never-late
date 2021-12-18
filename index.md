@@ -29,7 +29,7 @@ After this, create a shortcut for the script.py file which is located in the Nev
 The feature to join the class on keybind has not yet been implemented on windows, as there is no way to execute the script after pressing the keybind automatically.
 However I do have some ideas in order to implement this, and will do so after furter testing.
 
-### - Mac/Linux
+### - Mac/Linux:
 Run the following commands:
 ```
 git clone https://github.com/Phantasm702/Never-late.git
