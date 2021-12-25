@@ -21,7 +21,7 @@ Run `python3 Auto-Join-Class\setup.py` to complete the setup.
 *The following is optional, but recommended*    
 After this, create a shortcut for the script.py file which is located in the Auto-Join-Class folder.    
 The feature to join the class on keybind has not yet been implemented on windows, as there is no way to execute the script after pressing the keybind automatically.    
-However I do have some ideas in order to implement this, and will do so after furter testing.   
+However I do have some ideas in order to implement this, and will do so after further testing.   
     
 Mac/Linux:      
 Run `python3 Auto-Join-Class/setup.py` in the terminal to complete the setup.   
