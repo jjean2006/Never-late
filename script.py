@@ -13,7 +13,7 @@ configfile = cwd + 'config.ini'
 delimiter = ", "
 classindex = None
 
-#get timetable from config file
+# get timetable from config file
 subs = configparser.ConfigParser()
 subs.read(configfile)
 
@@ -23,6 +23,10 @@ wednesday = subs.get('timetable', 'wednesday').split(delimiter)
 thursday = subs.get('timetable', 'thursday').split(delimiter)
 friday = subs.get('timetable', 'friday').split(delimiter)
 
+# get starttimes from config file
+starttimes = configparser.ConfigParser()
+starttimes.read(configfile)
+times = starttimes.get('starttimes', 'starttimes').split(delimiter)
 
 # get links from config file
 sublinks = configparser.ConfigParser()
@@ -36,26 +40,10 @@ today = now.strftime("%A")
 todaystt = globals().get(today.lower())
 
 
-if int(current_time)>= 815:
-    classindex = 0
-
-    if int(current_time)>= 915:
-        classindex = 1
-
-        if int(current_time)>= 1030:
-            classindex = 2
-
-            if int(current_time)>= 1130:
-                classindex = 3
-
-                if int(current_time)>= 1215:
-                    classindex = 4
-
-                    if int(current_time)>= 1330:
-                        classindex = 5
-
-                        if int(current_time)>= 1415:
-                            classindex = 6
+for time in times:
+    if int(current_time) <= int(time):
+        classindex = times.index(time)
+        break
 
 sublink = sublinks.get('sublinks', todaystt[classindex])
 

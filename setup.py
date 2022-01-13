@@ -4,13 +4,17 @@ import subprocess
 import sys
 import os
 
+
+def clear():
+    os.system("clear")
+
 def divider():
     print('-----------------------------------------------------------------\n\n')
 
 def install(package):
     subprocess.check_call([sys.executable, "-m", "pip", "install", package])
 
-install("configparser") # install configparser, needed module for the *main* script, i.e, not the setup script.
+install("configparser") # install configparser, needed module for the *main* script, not the setup script.
 
 
 cwd = os.path.realpath(__file__).removesuffix('setup.py') # get the current working directory of the script.
@@ -22,14 +26,40 @@ thursday = []
 friday = []
 classes = []
 classno = int(input('How many classes do you have per day? Ans: '))
+starttimes = []
 
+
+clear()
 divider()
+
 
 with open(cwd + 'config.ini', 'w') as configfile:
     configfile.write('')
 
+
 with open(cwd + 'config.ini', 'a') as configfile:
-    configfile.write('[timetable]\n')
+    configfile.write('\n[starttimes]\n')
+
+while len(starttimes) < classno:
+    classind = 1
+    timeinput = input('What time does your ' + str(classind) + '(st/nd/rd/th) start? (24 hour format please)\nAns: ')
+    starttimes.append(timeinput.replace(':', ''))
+    classind = classind + 1
+
+
+with open(cwd + 'config.ini', 'a') as configfile:
+    strlist = str(starttimes).replace("'", "")
+    strlist2 = strlist.replace("[", "")
+    strlistfinal = strlist2.replace("]", "")
+    configfile.write('starttimes' + ' = ' + strlistfinal + '\n')
+
+
+clear()
+divider()
+
+
+with open(cwd + 'config.ini', 'a') as configfile:
+    configfile.write('\n[timetable]\n')
 
 
 for i in daysoftheweek:
@@ -48,6 +78,11 @@ for i in daysoftheweek:
         strlist2 = strlist.replace("[", "")
         strlistfinal = strlist2.replace("]", "")
         configfile.write(i + ' = ' + strlistfinal + '\n')
+
+
+clear()
+divider()
+
 
 with open(cwd + 'config.ini', 'a') as configfile:
     configfile.write('\n[sublinks]\n')
