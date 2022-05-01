@@ -40,7 +40,7 @@ If you are using a Mac:
 - Open the shortcuts app
 - Create a new shortcut to "Tell terminal to run Never-late/script.py" and set it to run for a keyboard shortcut.
 
-The instructions for getting the script to execute on a keyboard shortcut very from linux distro to distro.
+The instructions for getting the script to execute on a keyboard shortcut varies from linux distro to distro.
 
 
 ## To-Do:
